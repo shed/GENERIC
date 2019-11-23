@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63DB8B792389A6D000FB90FE /* SelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8B782389A6D000FB90FE /* SelectorViewController.m */; };
 		63E5D8A023898E0700B46169 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5D89F23898E0700B46169 /* AppDelegate.m */; };
 		63E5D8A323898E0700B46169 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5D8A223898E0700B46169 /* SceneDelegate.m */; };
 		63E5D8A623898E0700B46169 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5D8A523898E0700B46169 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63DB8B772389A6D000FB90FE /* SelectorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorViewController.h; sourceTree = "<group>"; };
+		63DB8B782389A6D000FB90FE /* SelectorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorViewController.m; sourceTree = "<group>"; };
 		63E5D89B23898E0700B46169 /* GENERIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GENERIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E5D89E23898E0700B46169 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63E5D89F23898E0700B46169 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,11 +66,13 @@
 			children = (
 				63E5D89E23898E0700B46169 /* AppDelegate.h */,
 				63E5D89F23898E0700B46169 /* AppDelegate.m */,
+				63E5D8A723898E0700B46169 /* Main.storyboard */,
 				63E5D8A123898E0700B46169 /* SceneDelegate.h */,
 				63E5D8A223898E0700B46169 /* SceneDelegate.m */,
 				63E5D8A423898E0700B46169 /* ViewController.h */,
 				63E5D8A523898E0700B46169 /* ViewController.m */,
-				63E5D8A723898E0700B46169 /* Main.storyboard */,
+				63DB8B772389A6D000FB90FE /* SelectorViewController.h */,
+				63DB8B782389A6D000FB90FE /* SelectorViewController.m */,
 				63E5D8AA23898E0800B46169 /* Assets.xcassets */,
 				63E5D8AC23898E0800B46169 /* LaunchScreen.storyboard */,
 				63E5D8AF23898E0800B46169 /* Info.plist */,
@@ -149,6 +154,7 @@
 				63E5D8A623898E0700B46169 /* ViewController.m in Sources */,
 				63E5D8A023898E0700B46169 /* AppDelegate.m in Sources */,
 				63E5D8B123898E0800B46169 /* main.m in Sources */,
+				63DB8B792389A6D000FB90FE /* SelectorViewController.m in Sources */,
 				63E5D8A323898E0700B46169 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
