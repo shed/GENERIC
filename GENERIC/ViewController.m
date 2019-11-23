@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AppLogic.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    DLog(@"loaded PrefixHeader.pch, you should have a look at this file");
+    //
+    DLog(@"also loaded AppLogic, example called here:%@",[[AppLogic sharedManager] temp]);
+    
+    
 }
 
 

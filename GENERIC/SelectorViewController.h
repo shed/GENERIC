@@ -10,7 +10,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SelectorViewController : UIViewController
+@interface SelectorViewController : UIViewController <UITableViewDataSource,
+UITableViewDelegate>
+
+{
+    IBOutlet UITableView *myTable;
+    NSMutableArray *myArray;
+}
 
 @end
 

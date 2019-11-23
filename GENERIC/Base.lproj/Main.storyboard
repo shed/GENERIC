@@ -52,12 +52,19 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="MYd-mg-mOh" id="kUa-5o-bfk"/>
+                                    <outlet property="delegate" destination="MYd-mg-mOh" id="kTq-bF-6Yw"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="GSh-K4-FmR"/>
                     </view>
                     <navigationItem key="navigationItem" id="s3E-BF-6oW"/>
+                    <connections>
+                        <outlet property="myTable" destination="lac-bp-jcE" id="vp1-Bx-a3n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="euc-tb-KcP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

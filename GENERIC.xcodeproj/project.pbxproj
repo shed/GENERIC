@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		63DB8B792389A6D000FB90FE /* SelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8B782389A6D000FB90FE /* SelectorViewController.m */; };
+		63DB8B802389AF5200FB90FE /* AppLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8B7F2389AF5200FB90FE /* AppLogic.m */; };
 		63E5D8A023898E0700B46169 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5D89F23898E0700B46169 /* AppDelegate.m */; };
 		63E5D8A323898E0700B46169 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5D8A223898E0700B46169 /* SceneDelegate.m */; };
 		63E5D8A623898E0700B46169 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5D8A523898E0700B46169 /* ViewController.m */; };
@@ -20,6 +21,9 @@
 /* Begin PBXFileReference section */
 		63DB8B772389A6D000FB90FE /* SelectorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorViewController.h; sourceTree = "<group>"; };
 		63DB8B782389A6D000FB90FE /* SelectorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorViewController.m; sourceTree = "<group>"; };
+		63DB8B7A2389AC4900FB90FE /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		63DB8B7E2389AF5200FB90FE /* AppLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppLogic.h; sourceTree = "<group>"; };
+		63DB8B7F2389AF5200FB90FE /* AppLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppLogic.m; sourceTree = "<group>"; };
 		63E5D89B23898E0700B46169 /* GENERIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GENERIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E5D89E23898E0700B46169 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63E5D89F23898E0700B46169 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,6 +68,9 @@
 		63E5D89D23898E0700B46169 /* GENERIC */ = {
 			isa = PBXGroup;
 			children = (
+				63DB8B7E2389AF5200FB90FE /* AppLogic.h */,
+				63DB8B7F2389AF5200FB90FE /* AppLogic.m */,
+				63DB8B7A2389AC4900FB90FE /* PrefixHeader.pch */,
 				63E5D89E23898E0700B46169 /* AppDelegate.h */,
 				63E5D89F23898E0700B46169 /* AppDelegate.m */,
 				63E5D8A723898E0700B46169 /* Main.storyboard */,
@@ -153,6 +160,7 @@
 			files = (
 				63E5D8A623898E0700B46169 /* ViewController.m in Sources */,
 				63E5D8A023898E0700B46169 /* AppDelegate.m in Sources */,
+				63DB8B802389AF5200FB90FE /* AppLogic.m in Sources */,
 				63E5D8B123898E0800B46169 /* main.m in Sources */,
 				63DB8B792389A6D000FB90FE /* SelectorViewController.m in Sources */,
 				63E5D8A323898E0700B46169 /* SceneDelegate.m in Sources */,
@@ -296,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = Generic/PrefixHeader.pch;
 				INFOPLIST_FILE = GENERIC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = Generic/PrefixHeader.pch;
 				INFOPLIST_FILE = GENERIC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
